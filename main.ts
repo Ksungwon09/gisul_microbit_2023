@@ -1,5 +1,5 @@
 input.onGesture(Gesture.TiltRight, function () {
-    radio.sendString("우회전")
+    radio.sendNumber(4)
     basic.showLeds(`
         . . # # #
         . . # . .
@@ -9,7 +9,7 @@ input.onGesture(Gesture.TiltRight, function () {
         `)
 })
 input.onGesture(Gesture.TiltLeft, function () {
-    radio.sendString("좌회전")
+    radio.sendNumber(3)
     basic.showLeds(`
         . . # . .
         . # # . .
@@ -19,7 +19,7 @@ input.onGesture(Gesture.TiltLeft, function () {
         `)
 })
 input.onButtonPressed(Button.A, function () {
-    radio.sendString("정지")
+    radio.sendNumber(0)
     basic.showLeds(`
         . . # . .
         . . # . .
@@ -29,7 +29,7 @@ input.onButtonPressed(Button.A, function () {
         `)
 })
 input.onGesture(Gesture.Shake, function () {
-    radio.sendString("하뚜")
+    radio.sendNumber(6)
     basic.showLeds(`
         . . # . .
         . . # . .
@@ -39,7 +39,7 @@ input.onGesture(Gesture.Shake, function () {
         `)
 })
 input.onButtonPressed(Button.AB, function () {
-    radio.sendString("후진")
+    radio.sendNumber(2)
     basic.showLeds(`
         . . # # #
         . . . . #
@@ -49,7 +49,7 @@ input.onButtonPressed(Button.AB, function () {
         `)
 })
 input.onButtonPressed(Button.B, function () {
-    radio.sendString("전진")
+    radio.sendNumber(1)
     basic.showLeds(`
         . . # # #
         . . . . #
