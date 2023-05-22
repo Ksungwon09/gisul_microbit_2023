@@ -57,31 +57,31 @@ basic.forever(function () {
             radio.sendNumber(5)
             basic.showLeds(`
                 . . # . .
+                . . # # .
+                # # # # #
+                . . # # .
                 . . # . .
-                . . # # #
-                . . # . #
-                # . # # #
                 `)
         }
         // 고좌7
         if (input.buttonIsPressed(Button.B)) {
             radio.sendNumber(6)
             basic.showLeds(`
-                . . # # #
-                . . # . #
-                . . . . #
-                . . . . #
-                # . . . #
+                . . # . .
+                . # # . .
+                # # # # #
+                . # # . .
+                . . # . .
                 `)
         }
         // 종지3
         radio.sendNumber(2)
         basic.showLeds(`
-            . . # # #
-            . . . . #
-            . . # # #
-            . . . . #
-            # . # # #
+            # . . . #
+            . # . # .
+            . . # . .
+            . # . # .
+            # . . . #
             `)
     }
 })

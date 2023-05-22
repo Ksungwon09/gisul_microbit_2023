@@ -6,22 +6,22 @@
         . . . . .
         `</field></block></next></block></statement></block><block type="device_forever" id="m[4rR)W%^w]-[Tw.IU=(" x="862" y="154"><statement name="HANDLER"><block type="controls_if" id="P{}YbH%p]rM/:B4C(.pW"><value name="IF0"><shadow type="logic_boolean" id="UG%@2_wBZM8.=8na9C[("><field name="BOOL">TRUE</field></shadow><block type="deviceisgesture" id="d*+lx-05+,%4(w@2L,8H"><field name="gesture">Gesture.ScreenUp</field></block></value><statement name="DO0"><block type="controls_if" id="80#Oa;PAbVt9`nFF8b5/"><comment pinned="true" h="80" w="160">고우6</comment><value name="IF0"><shadow type="logic_boolean" id="e{@cVf.B+sVaUIGj)]-!" disabled="true"><field name="BOOL">TRUE</field></shadow><block type="device_get_button2" id="%8@#%eoF7*EJU,7.Ul0S"><field name="NAME">Button.A</field></block></value><statement name="DO0"><block type="radio_datagram_send" id="F+~}BDDj@sRmcD5GiacN"><value name="value"><shadow type="math_number" id="nnF]K.N{7wjP%78V-%*E"><field name="NUM">5</field></shadow></value><next><block type="device_show_leds" id="}w~U{Bs`|qV;8Wcz}~V3"><field name="LEDS">`
         . . # . . 
-        . . # . . 
-        . . # # # 
-        . . # . # 
-        # . # # #
+        . . # # . 
+        # # # # # 
+        . . # # . 
+        . . # . .
         `</field></block></next></block></statement><next><block type="controls_if" id="sU^2:;@z0uS#;|*q9?Db"><comment pinned="true" h="80" w="160">고좌7</comment><value name="IF0"><shadow type="logic_boolean" disabled="true"><field name="BOOL">TRUE</field></shadow><block type="device_get_button2" id="|F|O|Mj?LYy,^sN7=lbR"><field name="NAME">Button.B</field></block></value><statement name="DO0"><block type="radio_datagram_send" id="qb{Hz%qrEV0M*{9]7)Sn"><value name="value"><shadow type="math_number" id="^#Tbp3As1=K(;Si7iyHG"><field name="NUM">6</field></shadow></value><next><block type="device_show_leds" id="%QU}rYz5!rZmxlucKM(c"><field name="LEDS">`
-        . . # # # 
-        . . # . # 
-        . . . . # 
-        . . . . # 
-        # . . . #
+        . . # . . 
+        . # # . . 
+        # # # # # 
+        . # # . . 
+        . . # . .
         `</field></block></next></block></statement><next><block type="radio_datagram_send" id="sFEd,J@/L!^H8_E^FT-~"><comment pinned="true" h="80" w="160">종지3</comment><value name="value"><shadow type="math_number" id="1LNiOY3[-MH|Z`c4S:_{"><field name="NUM">2</field></shadow></value><next><block type="device_show_leds" id="J=nk$m7l`g..Guxn1]k["><field name="LEDS">`
-        . . # # # 
-        . . . . # 
-        . . # # # 
-        . . . . # 
-        # . # # #
+        # . . . # 
+        . # . # . 
+        . . # . . 
+        . # . # . 
+        # . . . #
         `</field></block></next></block></next></block></next></block></statement></block></statement></block><block type="device_gesture_event" id="iw-_9Nhf[:~R]JFbH-i." x="15" y="385"><field name="NAME">Gesture.LogoUp</field><comment pinned="true" h="80" w="160">전진1</comment><statement name="HANDLER"><block type="radio_datagram_send" id="WJ)dn(Z?Kd2lehMXbHFC"><value name="value"><shadow type="math_number" id="n]a^A{VGr21*,:0d|{J{"><field name="NUM">0</field></shadow></value><next><block type="device_show_leds" id="s/.r=;o6S%wP(wz|yq_$"><field name="LEDS">`
         . . # . . 
         . # # # . 
