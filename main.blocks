@@ -34,7 +34,7 @@
         . . # . . 
         . . # . . 
         # . # . .
-        `</field></block></next></block></statement></block><block type="device_gesture_event" id="ZduZcQ]y(,yJ+G6ou;`{" disabled="true" x="162" y="553"><field name="NAME">Gesture.ScreenUp</field></block><block type="device_gesture_event" id="sZv~,66s(qAbpq[MP=ki" x="291" y="706"><field name="NAME">Gesture.TiltRight</field><statement name="HANDLER"><block type="radio_datagram_send" id="gZ:)[mE^D|^4JFy_!N.Y"><value name="value"><shadow type="math_number" id="ZA[ep4nqDg%yxnm3bjGf"><field name="NUM">3</field></shadow></value><next><block type="device_show_leds" id="w$_(A[(Hqr35d@9eLfz["><field name="LEDS">`
+        `</field></block></next></block></statement></block><block type="device_gesture_event" id="sZv~,66s(qAbpq[MP=ki" x="291" y="706"><field name="NAME">Gesture.TiltRight</field><statement name="HANDLER"><block type="radio_datagram_send" id="gZ:)[mE^D|^4JFy_!N.Y"><value name="value"><shadow type="math_number" id="ZA[ep4nqDg%yxnm3bjGf"><field name="NUM">3</field></shadow></value><next><block type="device_show_leds" id="w$_(A[(Hqr35d@9eLfz["><field name="LEDS">`
         . . # . . 
         . # # . . 
         # . # # # 
