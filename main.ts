@@ -8,6 +8,8 @@ input.onGesture(Gesture.TiltRight, function () {
         . . . # .
         . . # . .
         `)
+    basic.pause(100)
+    radio.sendNumber(9)
 })
 // 좌회전5
 input.onGesture(Gesture.TiltLeft, function () {
@@ -19,6 +21,8 @@ input.onGesture(Gesture.TiltLeft, function () {
         . # . . .
         . . # . .
         `)
+    basic.pause(100)
+    radio.sendNumber(9)
 })
 // 후진2
 input.onGesture(Gesture.LogoDown, function () {
@@ -30,6 +34,8 @@ input.onGesture(Gesture.LogoDown, function () {
         . # # # .
         . . # . .
         `)
+    basic.pause(100)
+    radio.sendNumber(9)
 })
 // 전진1
 input.onGesture(Gesture.LogoUp, function () {
@@ -41,6 +47,8 @@ input.onGesture(Gesture.LogoUp, function () {
         . . # . .
         . . # . .
         `)
+    basic.pause(100)
+    radio.sendNumber(9)
 })
 radio.setGroup(122)
 basic.showLeds(`
@@ -83,5 +91,6 @@ basic.forever(function () {
             . # . # .
             # . . . #
             `)
+        radio.sendNumber(4354354)
     }
 })
