@@ -70,6 +70,7 @@ basic.forever(function () {
                 . . # # .
                 . . # . .
                 `)
+            basic.pause(1000)
         }
         // 고좌7
         if (input.buttonIsPressed(Button.B)) {
@@ -81,6 +82,7 @@ basic.forever(function () {
                 . # # . .
                 . . # . .
                 `)
+            basic.pause(1000)
         }
         // 종지3
         radio.sendNumber(2)
